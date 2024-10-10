@@ -57,7 +57,7 @@ const MenuData = [
     {
         menu : "เครื่องดื่ม",
         foodName : "ลาเต้",
-        image_url:"https://cdn.pixabay.com/photo/2015/10/12/14/54/coffee-983955_960_720.jpg"
+        image_url:"https://cdn.pixabay.com/photo/2018/09/24/12/39/coffee-3699842_1280.jpg"
     }
 ]
 
