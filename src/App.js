@@ -8,8 +8,16 @@ function App() {
   const [foods, setFoods] = useState(MenuData);
 
   const changeFoodData = (e) => {
-    console.log(e.target.value);
-  }
+    const category = e.target.value;
+    if (category === "เมนูทั้งหมด") {
+      setFoods(MenuData);
+    }else{
+      const result = MenuData.filter((element)=>{
+        return element.menu === category
+      })
+      setFoods(result)
+    }
+  };
 
   return (
     <div className="container">
