@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const Dropdown = () => {
   return (
-    <div>Dropdown component</div>
-  )
-}
+    <nav>
+      <h2>SWN Restuarant</h2>
+      <select className="menu">
+        <option value="เมนูทั้งหมด">เมนูทั้งหมด</option>
+        <option value="ผัด-ทอด">ผัด-ทอด</option>
+        <option value="แกง-ต้มยำ">แกง-ต้มยำ</option>
+        <option value="เครื่องดื่ม">เครื่องดื่ม</option>
+        <option value="สเต็ก">สเต็ก</option>
+      </select>
+    </nav>
+  );
+};
 
-export default Dropdown
+export default Dropdown;
