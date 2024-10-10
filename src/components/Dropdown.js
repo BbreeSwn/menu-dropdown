@@ -3,7 +3,7 @@ import React from "react";
 const Dropdown = () => {
   return (
     <nav>
-      <h2>SWN Restuarant</h2>
+      <h2>Dynamic Dropdown</h2>
       <select className="menu">
         <option value="เมนูทั้งหมด">เมนูทั้งหมด</option>
         <option value="ผัด-ทอด">ผัด-ทอด</option>
