@@ -5,12 +5,17 @@ import MenuData from './data/MenuData';
 import { useState } from 'react';
 
 function App() {
-const [food , setFood] = useState(MenuData)
+const [foods , setFoods] = useState(MenuData)
 
   return (
     <div className="container">
       <Dropdown />
-      <Food food={food} setFood={setFood} />
+      <div className='content'>
+      {foods.map((data,index)=>{
+    return <Food key={index} {...data} />
+  })}
+
+      </div>
     </div>
   );
 }
