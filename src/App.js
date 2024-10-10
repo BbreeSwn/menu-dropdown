@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Dropdown from './components/Dropdown';
+import Food from './components/Food';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div className="container">
+      <h1>App component</h1>
+      <Dropdown />
+      <Food />
     </div>
   );
 }
