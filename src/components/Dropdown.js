@@ -1,10 +1,12 @@
 import React from "react";
 
-const Dropdown = () => {
+const Dropdown = ({changeFoodData}) => {
+
+
   return (
     <nav>
       <h2>Dynamic Dropdown</h2>
-      <select className="menu">
+      <select className="menu" onChange={changeFoodData}>
         <option value="เมนูทั้งหมด">เมนูทั้งหมด</option>
         <option value="ผัด-ทอด">ผัด-ทอด</option>
         <option value="แกง-ต้มยำ">แกง-ต้มยำ</option>
